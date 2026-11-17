@@ -1,8 +1,16 @@
 {
   "name": "dsh-feishu-sheet-owner",
   "version": "1.0.0",
-  "private": false,
   "description": "Create a Feishu/Lark spreadsheet with the app identity (permission-isolated) and grant one human an editor role on it, in a single call.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZoeDong/dsh-feishu.git",
+    "directory": "packages/dsh-feishu-sheet-owner"
+  },
+  "homepage": "https://github.com/ZoeDong/dsh-feishu#readme",
+  "bugs": {
+    "url": "https://github.com/ZoeDong/dsh-feishu/issues"
+  },
   "type": "module",
   "main": "index.js",
   "exports": {

@@ -1,8 +1,16 @@
 {
   "name": "dsh-feishu-sheets-mcp",
   "version": "1.0.0",
-  "private": false,
   "description": "Connects the open-source yuppie-mcp-lark MCP server so the agent can create and edit Feishu/Lark spreadsheets, bitables, and more.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZoeDong/dsh-feishu.git",
+    "directory": "packages/dsh-feishu-sheets-mcp"
+  },
+  "homepage": "https://github.com/ZoeDong/dsh-feishu#readme",
+  "bugs": {
+    "url": "https://github.com/ZoeDong/dsh-feishu/issues"
+  },
   "type": "module",
   "exports": {
     "./locale/*.json": "./locale/*.json",
