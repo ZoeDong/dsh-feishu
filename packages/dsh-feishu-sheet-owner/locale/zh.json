@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "飞书表格创建与授权",
+    "description": "以应用身份创建飞书/Lark 电子表格，并一次性给某位成员授予编辑权限。",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "dsh-feishu-sheet-owner",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Create a Feishu/Lark spreadsheet with the app identity (permission-isolated) and grant one human an editor role on it, in a single call.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "docs", "icon.svg"],
+  "keywords": ["dsh", "deepseek-harness", "plugin", "feishu", "lark", "spreadsheet"],
+  "engines": {
+    "dsh": ">=0.2.2-rc.3",
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

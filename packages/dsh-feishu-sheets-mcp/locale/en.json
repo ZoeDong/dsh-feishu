@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Feishu spreadsheets",
+    "description": "Connects the open-source yuppie-mcp-lark server so the agent can create and edit Feishu/Lark spreadsheets, bitables, and more.",
+    "detail": "docs/DETAIL.md"
+  }
+}

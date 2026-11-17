@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "飞书电子表格",
+    "description": "连接开源 yuppie-mcp-lark 服务器，让 Agent 创建和编辑飞书/Lark 电子表格、多维表格等。",
+    "detail": "docs/DETAIL.md"
+  }
+}

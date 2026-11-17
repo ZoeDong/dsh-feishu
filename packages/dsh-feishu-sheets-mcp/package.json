@@ -1,0 +1,21 @@
+{
+  "name": "dsh-feishu-sheets-mcp",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Connects the open-source yuppie-mcp-lark MCP server so the agent can create and edit Feishu/Lark spreadsheets, bitables, and more.",
+  "type": "module",
+  "exports": {
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["cordis.patch.yml", "locale/*.json", "docs", "icon.svg"],
+  "keywords": ["dsh", "deepseek-harness", "plugin", "feishu", "lark", "spreadsheet", "mcp"],
+  "engines": {
+    "dsh": ">=0.2.2-rc.3",
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

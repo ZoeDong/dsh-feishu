@@ -1,0 +1,16 @@
+- insert:
+    - id: dsh-feishu-sheets-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      inject:
+        - credentials
+      config:
+        serverName: feishu
+        transport: stdio
+        command: '${credential:FEISHU_UVX_PATH}'
+        args: ['yuppie-mcp-lark==0.6.0']
+        env:
+          LARK_APP_ID: '${credential:LARK_APP_ID}'
+          LARK_APP_SECRET: '${credential:LARK_APP_SECRET}'
+        expandTemplates: true
+        startupTimeoutMs: 180000
+        failOnStartupError: false

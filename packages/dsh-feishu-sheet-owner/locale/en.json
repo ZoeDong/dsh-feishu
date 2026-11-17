@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Feishu sheet owner",
+    "description": "Creates a Feishu/Lark spreadsheet with the app identity and grants one human an editor role on it, in a single call.",
+    "detail": "docs/DETAIL.md"
+  }
+}
